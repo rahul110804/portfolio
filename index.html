@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="name">
+            <span>Rahul Mishra</span>
+        </div>
+        <ul class="sidebar">
+            <li onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                        viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul>
+            <li class="hideonmobile"><a href="#home">Home</a></li>
+            <li class="hideonmobile"><a href="#education">Education</a></li>
+            <li class="hideonmobile"><a href="#skills">Skills</a></li>
+            <li class="hideonmobile"><a href="#projects">Projects</a></li>
+            <li class="hideonmobile"><a href="#contact">Contact</a></li>
+            <li class="menu-btn" onclick=showSidebar()><a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#e8eaed">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg>
+                </a></li>
+        </ul>
+    </nav>
+    <section id="home" class="Home">
+        <div class="home-content">
+            <h1>Hi,It's <span>Rahul</span></h1>
+            <h3>I am <span id="txt-animation"></span></h3>
+            <p>with a strong background in creating dynamic and responsive websites and applications.
+                With a keen eye for detail and a dedication to excellence, I specialize in front-end development,
+                utilizing the latest technologies to bring engaging user experiences to life.</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/mishra_rahul004?igsh=N24ycTN2bmN1a3M5" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/rahul-mishra-157697306/"target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://x.com/Rahul167911"target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/rahul110804"target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="accesorries/mypic.jpg" alt="">
+        </div>
+    </section>
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020</div>
+                <div class="timeline-content">
+                    <h3>Secondary School</h3>
+                    <p>School: Calcutta Public School, Kolkata, West Bengal
+                        Marks Scored:95%
+                        Core Subjects:
+                        Science
+                        Mathematics
+                        English
+                        Computer Science
+                        History & Geography</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div id="second" class="timeline-date">2022</div>
+                <div id="second-c" class="timeline-content">
+                    <h3>High Secondary School</h3>
+                    <p>School: SaltLake Shiksha Niketan, Kolkata, West Bengal
+                        Marks Scored:85%
+                        Core Subjects:
+                        Science
+                        Mathematics
+                        English
+                        Computer Science
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023</div>
+                <div class="timeline-content">
+                    <h3>Undergraduate Degree</h3>
+                    <p>currently pursuing my Btech degree from,
+                        College:Kalinga Institute Of Industrial Technology (KIIT)
+                        Branch:CSE
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="skill-container">
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h4>front-end Web Developer</h4>
+                    <p>I am a passionate frontend web developer with a keen eye for design and a deep love for crafting
+                        seamless user experiences.
+                        With a strong foundation in HTML, CSS, and JavaScript, I specialize in building responsive,
+                        interactive websites and applications.
+                        My journey in web development has equipped me with the skills to transform creative ideas into
+                        functional digital products.
+                        I stay up-to-date with the latest industry trends and technologies,
+                        ensuring that my projects not only meet current standards but also push the boundaries of
+                        innovation.</p>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h4> Web Designer</h4>
+                    <p>As a passionate and creative web designer dedicated to transforming your digital presence into a
+                        compelling, user-friendly experience.
+                        With a keen eye for detail and a strong foundation in the latest design trends and technologies,
+                        I specialize in creating visually stunning and highly functional websites that effectively
+                        communicate your brand's message</p>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h4> Video Editor</h4>
+                    <p>I'm thrilled to introduce myself as a dedicated and innovative video editor.
+                        My journey in video editing began [X] years ago, and since then, I've developed a strong passion
+                        for transforming raw footage into polished,
+                        captivating stories.
+                        My work spans various genres and formats, from high-energy promotional videos to heartfelt
+                        documentaries.</p>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h4> DSA Developer</h4>
+                    <p>As a dedicated developer specializing in Data Structures and Algorithms (DSA) with expertise in C
+                        and Java,
+                        I thrive on solving complex computational problems and optimizing code performance.
+                        My proficiency in these two powerful languages enables me to implement efficient algorithms and
+                        robust data structures,
+                        ensuring high performance and scalability.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <h2 class="heading">Projects
+        </h2>
+        <div class="images-container">
+            <div class="image-box">
+                <a href="https://rahul110804.github.io/netflix-clone/" target="_blank"><img
+                        src="accesorries/Screenshot 2024-07-02 095617.png" alt="Netflix Clone"></a>
+            </div>
+            <div class="image-box">
+                <a href="https://rahul110804.github.io/amazon-clone/" target="_blank"><img
+                        src="accesorries/Screenshot 2024-07-02 095654.png" alt="Amazon Clone"></a>
+            </div>
+            <div class="image-box">
+                <a href="https://rahul110804.github.io/rock-paper-scisorrs/" target="_blank"><img
+                        src="accesorries/Screenshot 2024-07-02 095736.png" alt="rockpapersc"></a>
+            </div>
+            <div class="image-box">
+                <a href="https://rahul110804.github.io/tictac-toe-game/" target="_blank"><img
+                        src="accesorries/Screenshot 2024-07-02 095804.png" alt="tictactoe"></a>
+            </div>
+            <div class="image-box">
+                <a href="https://rahul110804.github.io/loomluxe/" target="_blank"><img
+                        src="accesorries/Screenshot 2024-07-02 095535.png" alt="loomeluxe store"></a>
+            </div>
+            <div class="image-box">
+                <a href="https://rahul110804.github.io/envelope/" target="_blank"><img
+                        src="accesorries/Screenshot 2024-07-02 095858.png" alt="envelope"></a>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2 class="heading">Contact Me</h2>
+        <form action="">
+            <div class="input-grp">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+            <div class="input-grp2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="send Message" class="btn">
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.instagram.com/mishra_rahul004?igsh=N24ycTN2bmN1a3M5" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.linkedin.com/in/rahul-mishra-157697306" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://x.com/Rahul167911" target="_blank"><i class='bx bxl-twitter'></i></a>
+            <a href="https://github.com/rahul110804" target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">About Me</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">TEstimonials</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            © Rahul Mishra | All Rights Reserved
+        </p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#txt-animation', {
+            strings: ['a Web Developer', '&amp; a Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
